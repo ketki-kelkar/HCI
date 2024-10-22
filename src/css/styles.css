@@ -1,0 +1,243 @@
+/* styles.css */
+.app-container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+    font-family: sans-serif;
+  }
+  
+  .header {
+    background-color: #d4a093;
+    padding: 10px;
+  }
+  
+  .header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+  }
+  
+  .home-icon {
+    font-size: 24px;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .home1 {
+    background-color: transparent;
+    padding: 5px 10px;
+    border-radius: 5px;
+  }
+  .content {
+    flex: 1;
+    padding: 20px;
+    overflow-y: auto;
+  }
+  
+  .back-button {
+    width: 30px;
+    height: 30px;
+    background-color: transparent;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+    margin-bottom: 20px;
+  }
+  
+  .cafe-info {
+    display: flex;
+    gap: 20px;
+
+  }
+  
+  .cafe-image {
+    width: 100vh;
+    height: 50vh;
+  }
+  
+  .details {
+    flex: 1;
+    align-items: center;
+  }
+  
+  .cafe-name {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.opening-hours {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.billiard {
+    font-size: 24px;
+    text-align: center;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    margin-top: 10px; /* Add spacing above icons */
+}
+
+.social-icons img {
+    width: 5vh;
+    height: 5vh;
+    margin: 0 10px; /* Add spacing between icons */
+}
+  
+.gap1{
+    margin-bottom: 8vh;
+}
+/* Navigation Bar */
+.navigation {
+    background-color: #555; /* Light Gray */
+    padding: 10px;
+  }
+  
+  .nav-button {
+    background: none;
+    border: none;
+    padding: 10px 20px;
+    margin: 0 5px;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 24px; /* Increased font size */
+    color:white;
+  }
+  
+  .nav-button.active {
+    border-bottom: 2px solid #d49ea0; /* Active button underline */
+    margin-left: 0;
+  }
+
+
+  /* Events Section */
+  .events {
+    display: flex; /* Make it a flex container */
+    align-items: center; /* Center vertically */
+    margin-top: 5vh;
+    gap:20vh;
+  }
+  
+  .events h2 {
+    font-family: Inter;
+    font-size: 40px;
+    font-style: italic;
+    font-weight: 900;
+    line-height: 48.41px;
+    text-align: center;
+
+  }
+  
+  .event-image {
+    width: 90vh; /* Make the image smaller */
+    height: auto;
+  }
+  
+  .event-button {
+    background-color: #d49ea0;
+    color: white;
+    border: none;
+    width:45vh;
+    padding: 0;
+    height:10vh;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-left: 20px; 
+    font-size: 2vh;
+    font-weight: bolder;
+  }
+
+  button {
+    padding: 10px 20px;
+    color: black;
+    border: none;
+    border-radius:  5px;
+    cursor: pointer;
+
+  }
+
+  button:hover{
+    background-color: rgb(176, 176, 239);
+  }
+  
+  .home1 {
+    display: flex;
+    align-items: center;
+  }
+  
+  
+  .menu {
+    background-color: #926464;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  .item {
+    background-color: white;
+    margin: 20px;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 15px rgba(255, 255, 255, 0.7), 0px 0px 10px rgba(0, 0, 0, 0.1);
+    width: 60%;
+    max-width: 600px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 0px 25px rgba(255, 255, 255, 0.9), 0px 0px 20px rgba(0, 0, 0, 0.15);
+  }
+  
+  .item h2 {
+    margin-top: 0;
+    color: #6F4545;
+    font-size: 3vh;
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  .item ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    color: #333;
+  }
+  
+  .item li {
+    padding: 12px 0;
+    border-bottom: 1px solid #ccc;
+    font-size: 2.5vh;
+    font-style: italic;
+    font-weight: 300;
+    line-height: 1.6;
+    text-align: center;
+    color: #333;
+  }
+  
+  .item li:last-child {
+    border-bottom: none;
+  }
+  
+  .item li:hover {
+    color: #926464;
+  }
+
+  .menu-head{
+    font-style: normal;
+  }

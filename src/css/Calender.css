@@ -1,0 +1,249 @@
+.overall{
+  background-color: #BF9090;
+  ;
+  height: 100%;
+}
+
+.booking-container {
+  display: flex;
+  justify-content: space-between;
+  background-color: #926464;
+  padding: 20px;
+  border-radius: 10px;
+  color: #fff;
+  height: 60vh;
+  width: 100vh;
+  margin: auto auto;
+  border: 20vh solid#BF9090;
+}
+
+.calendar-container {
+  flex: 1;
+  margin-right: 20px;
+}
+
+.calendar-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.calendar-header button {
+  background-color: transparent;
+  border: none;
+  color: #fff;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.calendar {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #ccc;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.calendar th, .calendar td {
+  padding: 10px;
+  text-align: center;
+  border: 1px solid #ccc;
+  cursor: pointer;
+}
+
+.calendar td:hover {
+  background-color: #ddd;
+}
+
+.calendar td.selected {
+  background-color: #E68A8B;
+  color: white;
+}
+
+.time-slot-container {
+  background-color: #E0DDDC;
+  padding: 20px;
+  border-radius: 10px;
+  width: 300px;
+  color: #000;
+}
+
+.time-slot-container .header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.time-slot-container .header h2 {
+  font-size: 18px;
+}
+
+.time-slot-container .close-btn {
+  background: none;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.time-slots {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.time-slot {
+  padding: 10px 20px;
+  margin: 5px;
+  background-color: #E0E0E0;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.time-slot.selected {
+  background-color: #E68A8B;
+  color: #fff;
+}
+
+.time-slot:disabled {
+  background-color: #B8B8B8;
+  color: #fff;
+  cursor: not-allowed;
+}
+/* Confirm and cancel button styling */
+.confirm-button,
+.cancel-button {
+  width: 100%;
+  padding: 10px;
+  background-color: #E68A8B;
+  color: white; /* Set the text color to white */
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 20px;
+  text-align: center;
+}
+
+/* Confirm button hover effect */
+.confirm-button:hover {
+  background-color: #d17779;
+  color: white; /* Ensure white text on hover as well */
+}
+
+/* Error message styling */
+.error-message {
+  color: red;
+  font-weight: bold;
+  margin-top: 10px;
+  text-align: center;
+}
+
+/* Confirmation message styling */
+.confirmation-message {
+  margin: auto;
+  padding: auto;
+  background-color: #4A2E2B;
+  color: white; /* White text */
+  padding: 10px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+/* Modal box styling */
+.modal-dialog {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  color:black;
+  font-size: 2vh;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  z-index: 1000;
+  width: 80%;
+  max-width: 400px;
+  text-align: center;
+  border-radius: 8px;
+}
+
+.modal-content {
+  padding: 20px;
+}
+
+.booking-confirmed {
+  text-align: center;
+  background-color: #f0f8ff;
+  padding: 20px;
+  border: 1px solid #ddd;
+  margin-top: 20px;
+}
+
+/* Buttons inside modal */
+.go-home-button,
+.close-button,
+.confirm-button,
+.cancel-button {
+  margin-top: 15px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+/* Final confirmation buttons layout */
+.final-confirmation-buttons {
+  display: flex;
+  justify-content: space-around;
+}
+
+/* Specific confirm and cancel button states */
+.confirm-button,
+.cancel-button {
+  background-color: #4CAF50; /* Green for confirm */
+  color: red; /* Ensure text remains white */
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.cancel-button {
+  background-color: #f44336; /* Red for cancel */
+}
+
+.confirm-button:hover,
+.cancel-button:hover {
+  background-color: #45a049; /* Hover effect for confirm */
+  color: white;
+}
+
+.cancel-button:hover {
+  background-color: #d32f2f; /* Hover effect for cancel */
+}
+
+.close-button {
+  background-color: #f44336; /* Red close button */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.go-home-button {
+  background-color: #008CBA; /* Blue for "Go Home" */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.go-home-button:hover {
+  background-color: #007bb5; /* Darker blue on hover */
+}

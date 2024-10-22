@@ -1,0 +1,211 @@
+
+.header {
+    background-color: #d4a093;
+    padding: 10px;
+  }
+  
+  .header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+  }
+  
+  .home-icon {
+    font-size: 24px;
+    color: #fff;
+    cursor: pointer;
+  }
+
+  
+  .party-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .party-header h1 {
+    font-size: 12vh;
+    color: #E68A8B;
+    flex-grow: 1;
+    font-family: Intel;
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  .party-header .logo img {
+    width: 40px;
+    height: 40px;
+  }
+  
+  .party-header .back-button, 
+  .party-header .home-button {
+    background: none;
+    border: none;
+    font-size: 5vh;
+    cursor: pointer;
+  }
+  
+  .party-header .home-button img {
+    width: 24px;
+    height: 24px;
+  }
+  
+  .party-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .text-content h2 {
+    font-size: 5vh;
+    color: #E68A8B;
+    text-align: center;
+    font-weight: bold;
+    font-style: normal;
+  }
+  
+  .text-content p {
+    font-size: 2.5vh;
+    color: #7B6462;
+    line-height: 1.5;
+  }
+  
+  .party-imag1 {
+    width: 70vh;
+    height: 90vh;
+    border-radius: 10px;
+    padding: 2vh;
+    margin: 2vh;
+    object-fit: cover; 
+  }
+  
+  .book-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3C3C3C;
+    height: 20vh; 
+  }
+  
+  .book-button {
+    padding: 15px 30px;
+    background-color: #E68A8B;
+    color:black;
+    border: none;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .book-button:hover {
+    background-color: #d17779;
+  }
+  
+  .confirmation-dialog {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 10vh;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1000;
+  }
+  
+  .confirm-button,
+  .cancel-button {
+    margin: 10px;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+ 
+  .confirm-button {
+    background-color:  #d17779;
+    color: #fff;
+    border: none;
+  }
+  .confirm-button:hover{
+    background-color: #28a745;
+  }
+  .cancel-button {
+    background-color:  #d17779;
+    color: #fff;
+    border: none;
+  }
+  .cancel-button:hover{
+    background-color: #dc3545;
+  }
+  
+  .dialog-text{
+    font-weight: bold;
+    font-family: Intel;
+    font-size: 3vh;
+  }
+
+  .confirmation-dialog, .booking-confirmation {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1000;
+  }
+  
+  .confirm-button,
+  .cancel-button,
+  .go-home-button {
+    margin: 10px;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  .confirm-button {
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+  }
+  
+  .cancel-button {
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+  }
+  
+  .go-home-button {
+    background-color: #007bff;
+    color: #fff;
+    font-size: 2vh;
+    border: none;
+  }
+
+  .book1{
+    color:#28a745;
+    font-weight: bolder;
+    font-size: 5vh;
+    font-family: Intel;
+    text-align: center;
+    font-weight: bold;
+  }
+
+  .text1{
+    font-weight: bolder;
+    font-size: 3vh;
+    font-family: Intel;
+    text-align: center;
+    font-weight: bold;
+  }

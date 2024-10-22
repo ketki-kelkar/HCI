@@ -1,0 +1,55 @@
+.header1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #BF9090;
+    margin-bottom: 20px;
+    color: #fff; /* White text for contrast */
+  }
+  
+
+  
+  .box {
+    margin: 5vh;
+    padding: 5vh;
+    background-color: #F7E6E6; /* Light background color for contrast */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  }
+  
+  .para {
+    font-family: Intel; /* Ensure 'Intel' is available or choose a similar font */
+    font-size: 3vh;
+    text-align: center;
+    margin-bottom: 20px; /* Space between paragraphs */
+    color: #333; /* Dark text color for readability */
+    line-height: 4vh;
+  }
+  
+  .li{
+    font-family: Intel; /* Ensure 'Intel' is available or choose a similar font */
+    font-size: 2.2vh;
+    margin-bottom: 20px; /* Space between paragraphs */
+    color: #333; /* Dark text color for readability */
+    line-height: 4vh;
+  }
+
+  .para1 {
+    font-family: Intel; /* Ensure 'Intel' is available or choose a similar font */
+    font-size: 2.2vh;
+    margin-bottom: 20px; /* Space between paragraphs */
+    color: #333; /* Dark text color for readability */
+    line-height: 4vh;
+  }
+
+  .footer-h2{
+    font-family: Intel; /* Ensure 'Intel' is available or choose a similar font */
+    font-size: 3vh;
+    margin-left:0;
+    font-weight: bold;
+    font-style: normal;
+    margin-bottom: 20px; /* Space between paragraphs */
+    color: #333; /* Dark text color for readability */
+    line-height: 4vh;
+  }
